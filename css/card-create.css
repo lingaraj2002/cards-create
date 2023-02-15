@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+}
+section{
+	
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.col{
+	width:25%;
+}
+.col img{
+	max-width:100%;
+}
+.col h3{
+	padding:5px;
+	font-size:16px;
+}
+.col h4{
+	padding:5px;
+	font-size:12px;
+}
+.card{
+	padding:10px;
+	margin:10px;
+	border-radius:5px;
+}
+.row2{
+	display:flex;
+	justify-content:space-between;
+}
+.rate1,.rate2,.rate3{
+	padding:15px 10px;
+	font-size:13px;
+}
+.rate1 a{
+	text-decoration:none;
+	background-color:#48c479;
+	color:#ffffff;
+	padding:3px 5px;
+	
+}
+.rate2 a{
+	text-decoration:none;
+	color:#000000;
+	
+}
+.rate3 a{
+	text-decoration:none;
+	color:#000000;
+	
+}
+.dis{
+	padding:20px 0;
+	border-top:2px solid #dddddd;
+}
+.dis a{
+	text-decoration:none;
+	color:#8a584b;
+	padding:15px;
+}
+.view a{
+	text-decoration:none;
+	color:#5d8ed5;
+	font-size:17px;
+}
+.view{
+	text-align:center;
+	padding:15px 0;
+	border-top:2px solid #dddddd;
+	opacity:0;
+}
+.col:hover .view{
+	opacity:1;
+	transition:0.5s;
+}
+.col:hover .card{
+	box-shadow:0 0 0 2px #dddddd;
+	transition:0.5s;
+	cursor:pointer;
+}
+
+	
+
+	
+
+	
+	
